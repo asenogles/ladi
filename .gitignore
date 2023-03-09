@@ -1,0 +1,8 @@
+.vscode
+build/
+dist/
+example_data/components
+/example1.png
+*.egg-info/
+*.pyc
+*.pyo
