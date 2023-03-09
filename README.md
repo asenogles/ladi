@@ -36,4 +36,4 @@ You can run the example on the provided test data:
 python3 example.py
 ```
 
-![plot](./example_data/output/example1.png)
+![plot](./examples/output/example1.png)

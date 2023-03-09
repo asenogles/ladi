@@ -35,8 +35,8 @@ cbar_min = 0.
 cbar_max = 0.2
 norm = Normalize(cbar_min, cbar_max)
 
-fname = Path('./example_data/example1.flo')
-outname = Path('./example_data/output/example1.png')
+fname = Path('./examples/example1.flo')
+outname = Path('./examples/output/example1.png')
 
 cp = np.array([400,256], dtype=int)
 
