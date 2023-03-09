@@ -52,7 +52,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/asenogles/ladi',
     author='asenogles',
-    license='', # TODO: Add license
+    license='BSD',
     packages=find_packages(),
     install_requires=[
         'cython>=0.29.21',
