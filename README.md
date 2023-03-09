@@ -1,7 +1,7 @@
 # LADI
 
 [![pypi](https://img.shields.io/pypi/v/ladi.svg)](https://pypi.python.org/pypi/ladi)
-[![image](https://img.shields.io/badge/dynamic/json?query=info.requires_python&label=python&url=https%3A%2F%2Fpypi.org%2Fpypi%2ladi%2Fjson )](https://pypi.python.org/pypi/ladi)
+[![image](https://img.shields.io/badge/dynamic/json?query=info.requires_python&label=python&url=https%3A%2F%2Fpypi.org%2Fpypi%2Fladi%2Fjson )](https://pypi.python.org/pypi/ladi)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ***LADI***: **LA**ndslide **D**isplacement **I**nterpolation is a python library designed for performing high-spatial, high-temporal interpolation of landslide surface displacements. ***LADI*** is specifically useful for combining in-situ monitoring data with remote sensing geospatial data.
