@@ -287,8 +287,8 @@ void kf_pass(float* X, float* Xp, float* P, float* Pp, const float* Y, const flo
     predicted_covariance(&Pp[pi], &P[pim], A, Q, D);
     
     // Multiply by identity matrix
-    for (int i =0; i < D*D; i++) {
-      Pp[pi+i] *= I[i];
+    for (int j=0; j < D*D; j++) {
+      Pp[pi+j] *= I[j];
     }
 
     // compute kalman gain
