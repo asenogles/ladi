@@ -212,7 +212,7 @@ float determinantOfMatrix(const float* mat, int N, const int D) {
   if (N == 1)
     return mat[0];
  
-  float* tmp = malloc(sizeof(float) * (D*D)); // To store cofactors
+  float* tmp = (float*)malloc(sizeof(float) * (D*D)); // To store cofactors
  
   int sign = 1; // To store sign multiplier
  
@@ -241,7 +241,7 @@ void adjoint(float* adj, const float* mat, const int D) {
   }
 
   // temp is used to store cofactors of mat
-  float* tmp = malloc(sizeof(float) * (D*D));
+  float* tmp = (float*)malloc(sizeof(float) * (D*D));
   int sign=1;
 
   for (int i=0; i<D; i++) {
@@ -279,7 +279,7 @@ bool inverse_matrix(float* inv, const float* mat, const int D) {
   }
 
   // compute adjoint matrix
-  float* adj = malloc(sizeof(float) * (D*D));
+  float* adj = (float*)malloc(sizeof(float) * (D*D));
   adjoint(adj, mat, D);
 
   for (int r=0; r<D; r++) {
