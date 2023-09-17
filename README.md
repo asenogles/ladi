@@ -8,6 +8,7 @@
 
  - Github repository: https://github.com/asenogles/ladi
  - PyPI: https://pypi.org/project/ladi
+ - [Click here to read the paper](https://authors.elsevier.com/c/1hkYJMMTPorNH).
 
 ## Motivation
 
